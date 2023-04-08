@@ -9,6 +9,8 @@ module.exports = {
     // nav: nav,
     themeConfig:{
         nav: nav,
+        lastUpdated: "最近更新",
+        logo: 'avatar.jpg'
     }
 
 }

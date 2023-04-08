@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/SSH私钥别名配置.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/SSH私钥别名配置.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/SSH私钥别名配置.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/SSH私钥别名配置.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "166658ff68fb6f79",
   "lastOpenFiles": [
+    "架构设计/DDD实战",
+    "工具/README.md",
+    "工具/SSH私钥别名配置.md",
     "数据库/MySQL/README.md",
     "数据库/ES/README.md",
     "数据库/ES",
-    "数据库/MySQL",
-    "工具/README.md",
-    "工具/SSH私钥别名配置.md"
+    "数据库/MySQL"
   ]
 }
