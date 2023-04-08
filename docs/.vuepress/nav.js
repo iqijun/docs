@@ -9,6 +9,19 @@ module.exports = [
     ]
   },
   {
+    "text": "数据库",
+    "items": [
+      {
+        "text": "ES",
+        "link": "/数据库/ES/"
+      },
+      {
+        "text": "My SQL",
+        "link": "/数据库/MySQL/"
+      }
+    ]
+  },
+  {
     "text": "架构设计",
     "items": [
       {

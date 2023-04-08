@@ -1,5 +1,5 @@
 
-const pluginConf = require('./config/plugins.js');
+const pluginConf = require('./configs/plugins.js');
 const nav = require("./nav.js");
 
 
