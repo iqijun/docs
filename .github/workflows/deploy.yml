@@ -1,19 +1,16 @@
 name: deploy gh-pages
-on: 
-  push: 
-    branches:
-     master
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
+
     - name: Build and Deploy
       uses: iqijun/docs@master
       env:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_SECRET }}
-        TARGET_REPO: iqijun/docs
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist/
