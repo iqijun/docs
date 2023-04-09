@@ -6,6 +6,7 @@ const nav = require("./nav.js");
 module.exports = {
     title:"余闲笔记",
     plugins: pluginConf,
+    base: '/docs/',
     // nav: nav,
     themeConfig:{
         nav: nav,
