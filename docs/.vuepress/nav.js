@@ -1,5 +1,14 @@
 module.exports = [
   {
+    "text": "中间件",
+    "items": [
+      {
+        "text": "Redis",
+        "link": "/中间件/Redis/"
+      }
+    ]
+  },
+  {
     "text": "工具",
     "items": [
       {
@@ -24,6 +33,10 @@ module.exports = [
   {
     "text": "架构设计",
     "items": [
+      {
+        "text": "DDD实战专栏笔记",
+        "link": "/架构设计/DDD/DDD实战专栏笔记/"
+      },
       {
         "text": "架构设计",
         "link": "/架构设计/"

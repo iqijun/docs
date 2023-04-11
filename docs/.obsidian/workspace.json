@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "550651694e213c1b",
+        "id": "48f83469f2280932",
         "type": "tabs",
         "children": [
           {
-            "id": "166658ff68fb6f79",
+            "id": "66ed2547d37610ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "中间件/Redis/过期策略.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "中间件/Redis/过期策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "中间件/Redis/过期策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "中间件/Redis/过期策略.md"
               }
             }
           }
@@ -146,10 +146,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "166658ff68fb6f79",
+  "active": "66ed2547d37610ee",
   "lastOpenFiles": [
-    "架构设计/DDD实战",
+    "中间件/Redis/README.md",
     "工具/README.md",
+    "架构设计/DDD/DDD实战专栏笔记/README.md",
+    "中间件/Redis/过期策略.md",
+    "README.md",
+    "中间件/Redis/附件/middle_img_v2_cd224bd1-a33b-45b3-95ad-9e31bbee37fl.png",
+    "中间件/Redis/附件",
+    "中间件/Redis",
+    "中间件",
+    "about.md",
+    "架构设计/DDD/DDD实战专栏笔记/未命名.canvas",
+    "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（14-20）.md",
+    "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（7-13）.md",
+    "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（1-6）.md",
+    "架构设计/DDD/DDD实战专栏笔记/附件/Pasted image 20230313224739.png",
+    "架构设计/DDD/DDD实战专栏笔记/附件/Pasted image 20230312163624.png",
+    "架构设计/DDD/DDD实战专栏笔记/附件/Pasted image 20230312161528.png",
+    "架构设计/DDD/附件/Pasted image 20221121205810.png",
+    "架构设计/DDD/附件/Pasted image 20221121201219.png",
+    "架构设计/DDD/附件/Pasted image 20221121200250.png",
+    "架构设计/DDD/附件/Pasted image 20221121200057.png",
+    "面试题/Dubbo.md",
+    "架构设计/DDD/附件/Pasted image 20221121205148.png",
+    "架构设计/DDD/附件/Pasted image 20221121204846.png",
+    "架构设计/DDD/附件",
+    "架构设计/DDD/DDD实战专栏笔记/附件",
+    "架构设计/DDD/DDD实战专栏笔记",
+    "架构设计/DDD",
+    "面试题/README.md",
+    "架构设计/DDD实战",
     "工具/SSH私钥别名配置.md",
     "数据库/MySQL/README.md",
     "数据库/ES/README.md",
