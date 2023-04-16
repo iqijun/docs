@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间件/Redis/过期策略.md",
+                "file": "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（1-6）.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中间件/Redis/过期策略.md",
+                "file": "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（1-6）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中间件/Redis/过期策略.md",
+                "file": "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（1-6）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中间件/Redis/过期策略.md"
+                "file": "架构设计/DDD/DDD实战专栏笔记/DDD实战笔记（1-6）.md"
               }
             }
           }
@@ -145,12 +145,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4205c62230ce3da2",
+  "active": "66ed2547d37610ee",
   "lastOpenFiles": [
+    "中间件/Redis/过期策略.md",
     "中间件/Redis/README.md",
     "工具/README.md",
     "架构设计/DDD/DDD实战专栏笔记/README.md",
-    "中间件/Redis/过期策略.md",
     "README.md",
     "中间件/Redis/附件/middle_img_v2_cd224bd1-a33b-45b3-95ad-9e31bbee37fl.png",
     "中间件/Redis/附件",
