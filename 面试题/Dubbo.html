@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>常见dubbo面试题 | 余闲笔记</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.b56dbf9d.css" as="style"><link rel="preload" href="/assets/js/app.f990f690.js" as="script"><link rel="preload" href="/assets/js/2.60c6961f.js" as="script"><link rel="preload" href="/assets/js/20.3a6d1f27.js" as="script"><link rel="prefetch" href="/assets/js/10.ddf37825.js"><link rel="prefetch" href="/assets/js/11.c9fdd348.js"><link rel="prefetch" href="/assets/js/12.4a9def3d.js"><link rel="prefetch" href="/assets/js/13.4373fd0b.js"><link rel="prefetch" href="/assets/js/14.606bc43e.js"><link rel="prefetch" href="/assets/js/15.51dfcedc.js"><link rel="prefetch" href="/assets/js/16.84f92a3f.js"><link rel="prefetch" href="/assets/js/17.1db4dba0.js"><link rel="prefetch" href="/assets/js/18.fb76b3e6.js"><link rel="prefetch" href="/assets/js/19.52d36346.js"><link rel="prefetch" href="/assets/js/21.17d0b4fd.js"><link rel="prefetch" href="/assets/js/3.23c8b818.js"><link rel="prefetch" href="/assets/js/4.d765f3e9.js"><link rel="prefetch" href="/assets/js/5.51618976.js"><link rel="prefetch" href="/assets/js/6.61e87507.js"><link rel="prefetch" href="/assets/js/7.a18f1bcc.js"><link rel="prefetch" href="/assets/js/8.13085ce3.js"><link rel="prefetch" href="/assets/js/9.eeefb02d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b56dbf9d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="avatar.jpg" alt="余闲笔记" class="logo"> <span class="site-name can-hide">余闲笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><span class="title">中间件</span> <span class="arrow down"></span></button> <button type="button" aria-label="中间件" class="mobile-dropdown-title"><span class="title">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/中间件/Redis/" class="nav-link">
+  Redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/工具/" class="nav-link">
+  工具
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/数据库/ES/" class="nav-link">
+  ES
+</a></li><li class="dropdown-item"><!----> <a href="/数据库/MySQL/" class="nav-link">
+  My SQL
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构设计" class="dropdown-title"><span class="title">架构设计</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构设计" class="mobile-dropdown-title"><span class="title">架构设计</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/架构设计/DDD/DDD实战专栏笔记/" class="nav-link">
+  DDD实战专栏笔记
+</a></li><li class="dropdown-item"><!----> <a href="/架构设计/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><span class="title">面试题</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试题" class="mobile-dropdown-title"><span class="title">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/面试题/" class="nav-link">
+  面试题
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><span class="title">中间件</span> <span class="arrow down"></span></button> <button type="button" aria-label="中间件" class="mobile-dropdown-title"><span class="title">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/中间件/Redis/" class="nav-link">
+  Redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/工具/" class="nav-link">
+  工具
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/数据库/ES/" class="nav-link">
+  ES
+</a></li><li class="dropdown-item"><!----> <a href="/数据库/MySQL/" class="nav-link">
+  My SQL
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构设计" class="dropdown-title"><span class="title">架构设计</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构设计" class="mobile-dropdown-title"><span class="title">架构设计</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/架构设计/DDD/DDD实战专栏笔记/" class="nav-link">
+  DDD实战专栏笔记
+</a></li><li class="dropdown-item"><!----> <a href="/架构设计/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><span class="title">面试题</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试题" class="mobile-dropdown-title"><span class="title">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/面试题/" class="nav-link">
+  面试题
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>面试题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/%E9%9D%A2%E8%AF%95%E9%A2%98/" aria-current="page" class="sidebar-link">这是一些常见面试题记录</a></li><li><a href="/面试题/Dubbo.html" class="active sidebar-link">常见dubbo面试题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_1-dubbo的执行过程"><a href="#_1-dubbo的执行过程" class="header-anchor">#</a> 1. Dubbo的执行过程</h1> <h1 id="_2-dubbo是如何实现远程调用的"><a href="#_2-dubbo是如何实现远程调用的" class="header-anchor">#</a> 2. Dubbo是如何实现远程调用的</h1> <h1 id="_3-dubbo实现了哪些功能"><a href="#_3-dubbo实现了哪些功能" class="header-anchor">#</a> 3. Dubbo实现了哪些功能</h1> <h1 id="_4-怎么配置重试策略"><a href="#_4-怎么配置重试策略" class="header-anchor">#</a> 4. 怎么配置重试策略</h1> <ol start="5"><li><p>dubbo的优缺点</p> <ol><li>优点：
+<ol><li>与Spring整合，接入简单松耦合</li> <li>多种序列化协议支持</li> <li>注册中心只负责注册查找，不负责请求转发，压力小</li> <li>注册中心宕机影响消费者，消费者本地缓存服务地址列表</li> <li>注册中心对等集群，宕掉一台自动切换到另外 一台</li> <li>服务提供者无状态，可动态部署，注册中心负责推送</li> <li>统计无压力，本地内存中累计次数，每分钟发送注册中心</li> <li>消费者调用服务者，自动软负载均衡</li> <li>通过服务中心可追踪依赖关系</li> <li>监控中心为扩容和降级提供依据</li></ol></li> <li>缺点
+<ol><li>消费者仍需要依赖配置中心</li> <li>消费者仍需要依赖jar包配置provider</li> <li>提供者文档管理功能缺失</li> <li>无统一入口</li> <li>不支持OAuth2.0</li> <li>内部鉴权不方便管理</li> <li>无外部应用鉴权</li> <li>接口基本裸奔，无法直接对外暴露服务</li> <li>IT治理不方便</li></ol></li></ol></li> <li><p>dubbo类怎么加载的</p></li> <li><p>dubbo异步调用怎么实现的</p> <ol><li>基于CompletableFuture接口</li> <li>提供方定义一个返回类型为CompletableFuture的方法,</li></ol> <div class="language- extra-class"><pre class="language-text"><code>public interface AsyncService {
+    CompletableFuture&lt;String&gt; sayHello(String name);
+}
+
+public class AsyncServiceImpl implements AsyncService {
+    @Override
+    public CompletableFuture&lt;String&gt; sayHello(String name) {
+        RpcContext savedContext = RpcContext.getContext();
+        // 建议为supplyAsync提供自定义线程池，避免使用JDK公用线程池
+        return CompletableFuture.supplyAsync(() -&gt; {
+            System.out.println(savedContext.getAttachment(&quot;consumer-key1&quot;));
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return &quot;async response from provider.&quot;;
+        });
+    }
+}
+
+</code></pre></div><ol start="3"><li>消费方获取CompletableFuture的返回值</li></ol> <div class="language- extra-class"><pre class="language-text"><code>xml配置：
+&lt;dubbo:reference id=&quot;asyncService&quot; interface=&quot;org.apache.dubbo.samples.governance.api.AsyncService&quot;&gt;
+      &lt;dubbo:method name=&quot;sayHello&quot; async=&quot;true&quot; /&gt;
+&lt;/dubbo:reference&gt;
+
+// 调用直接返回CompletableFuture
+CompletableFuture&lt;String&gt; future = asyncService.sayHello(&quot;async call request&quot;);
+// 增加回调
+future.whenComplete((v, t) -&gt; {
+    if (t != null) {
+        t.printStackTrace();
+    } else {
+        System.out.println(&quot;Response: &quot; + v);
+    }
+});
+// 早于结果输出
+System.out.println(&quot;Executed before response return.&quot;);
+
+</code></pre></div></li> <li><p>对服务治理的理解</p> <ol><li>服务治理最基础的功能服务注册，服务发现，这两点可以保证服务消费方找到需要的提供者，完成服务调用</li> <li>然后是负载均衡，多个服务提供者之间怎么选择</li> <li>然后是服务之间的通信，服务如何实现远程调用，比如使用netty，使用什么协议，比如dubbo，http</li> <li>集群容错，出现调用失败时如何处理：
+<ol><li><p>dubbo的处理策略</p> <ol><li>缺省为 failover 重试</li> <li>Failfast 快速失败 只发起一次调用，失败立即报错。通常用于非幂等性的写操作</li> <li>Failback 失败自动恢复，后台记录失败请求，定时重发。通常用于消息通知操作</li> <li>Forking 并行调用多个服务器，只要一个成功即返回。通常用于实时性要求较高的读操作，但需要浪费更多服务资源。可通过forks=&quot;2&quot;来设置最大并行数</li></ol> <div class="language- extra-class"><pre class="language-text"><code>配置方式
+提供者：&lt;dubbo:service cluster=&quot;failsafe&quot; /&gt;  
+消费者：&lt;dubbo:reference cluster=&quot;failsafe&quot; /&gt;
+</code></pre></div><ol start="5"><li>再就是对服务的监控，调用次数，耗时 ，tp99，报警信息等，链路追踪工具 CAT</li> <li>还要有网关，限制对服务的调用次数限流，降级，熔断（Hystrix）</li> <li>服务配置：Spring Cloud Config，Disconf</li> <li>服务熔断：Hystrix，resilience4j</li></ol></li></ol></li></ol></li> <li><p>微服务的优缺点：(https://www.cnblogs.com/X-knight/p/11359836.html)</p> <ol><li>优点
+<ol><li>降低系统复杂度：每个服务都比较简单，只关注于一个业务功能</li> <li>松耦合：微服务架构方式是松耦合的，每个微服务可由不同团队独立开发，互不影响。</li> <li>跨语言：只要符合服务 API 契约，开发人员可以自由选择开发技术。这就意味着开发人员可以采用新技术编写或重构服务，由于服务相对较小，所以这并不会对整体应用造成太大影响。</li> <li>独立部署：微服务架构可以使每个微服务独立部署。开发人员无需协调对服务升级或更改的部署。这些更改可以在测试通过后立即部署。所以微服务架构也使得 CI／CD 成为可能。</li></ol></li> <li>缺点
+<ol><li>微服务强调了服务大小，但实际上这并没有一个统一的标准：业务逻辑应该按照什么规则划分为微服务，这本身就是一个经验工程。有些开发者主张 10-100 行代码就应该建立一个微服务。虽然建立小型服务是微服务架构崇尚的，但要记住，微服务是达到目的的手段，而不是目标。微服务的目标是充分分解应用程序，以促进敏捷开发和持续集成部署。</li> <li>微服务的分布式特点带来的复杂性：开发人员需要基于 RPC 或者消息实现微服务之间的调用和通信，而这就使得服务之间的发现、服务调用链的跟踪和质量问题变得的相当棘手。</li> <li>分区的数据库体系和分布式事务：更新多个业务实体的业务交易相当普遍，不同服务可能拥有不同的数据库。CAP 原理的约束，使得我们不得不放弃传统的强一致性，而转而追求最终一致性，这个对开发人员来说是一个挑战。</li> <li>测试挑战：传统的单体WEB应用只需测试单一的 REST API 即可，而对微服务进行测试，需要启动它依赖的所有其他服务。这种复杂性不可低估。</li> <li>跨多个服务的更改：比如在传统单体应用中，若有 A、B、C 三个服务需要更改，A 依赖 B，B 依赖 C。我们只需更改相应的模块，然后一次性部署即可。但是在微服务架构中，我们需要仔细规划和协调每个服务的变更部署。我们需要先更新 C，然后更新 B，最后更新 A。</li> <li>部署复杂：微服务由不同的大量服务构成。每种服务可能拥有自己的配置、应用实例数量以及基础服务地址。这里就需要不同的配置、部署、扩展和监控组件。此外，我们还需要服务发现机制，以便服务可以发现与其通信的其他服务的地址。因此，成功部署微服务应用需要开发人员有更好地部署策略和高度自动化的水平。</li> <li>总的来说（问题和挑战）：API Gateway、服务间调用、服务发现、服务容错、服务部署、数据调用。</li> <li></li> <li></li></ol></li></ol></li> <li><p>什么样的系统不适合使用微服务</p> <ol><li>小团队</li> <li>对响应时间有很高要求的系统</li> <li>高度集中的系统</li></ol></li> <li><p>服务降级与服务熔断有什么异同点</p></li> <li><p>Dubbo的线程模型</p></li> <li><p>RPC协议相对于http协议有哪些优缺点</p> <ol><li>HTTP 和 RPC 其实是两个维度的东西， HTTP 指的是通信协议。</li> <li>而 RPC 则是远程调用，其对应的是本地调用。</li> <li>RPC 的通信可以用 HTTP 协议，也可以自定义协议，是不做约束的</li> <li>速度来看，RPC要比http更快，虽然底层都是TCP，但是http协议的信息往往比较臃肿</li> <li>难度来看，RPC实现较为复杂，http相对比较简单</li> <li>灵活性来看，http更胜一筹，因为它不关心实现细节，跨平台、跨语言。</li> <li>应用场景
+<ol><li>如果对效率要求更高，并且开发过程使用统一的技术栈，那么用RPC还是不错的。</li> <li>如果需要更加灵活，跨语言、跨平台，显然http更合适</li></ol></li></ol></li> <li><p>常见链路追踪系统
+Google的Dapper，阿里的鹰眼，大众点评的CAT，Twitter的Zipkin，LINE的pinpoint，国产的skywalking，国内一般用CAT和zipkin比较多</p></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="prev router-link-active">
+        这是一些常见面试题记录
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.f990f690.js" defer></script><script src="/assets/js/2.60c6961f.js" defer></script><script src="/assets/js/20.3a6d1f27.js" defer></script>
+  </body>
+</html>
